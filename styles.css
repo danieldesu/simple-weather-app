@@ -1,0 +1,64 @@
+html {
+  background-color: beige;
+  height: 100%;
+}
+
+body {
+  background-color: beige;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+  font-family: "Helvetica", sans-serif;
+}
+
+.container {
+  max-width: 300px;
+  margin: 20px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.change-location {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.change-location input[type="text"] {
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card {
+  background-color: rgb(255, 255, 238);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.icon {
+  background-color: rgb(255, 255, 245);
+  border-radius: 50%;
+  width: 80px;
+  margin: 0 auto;
+}
+
+.details {
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+/* Initially display nothing, use JavaScript to remove the class from the element when desired */
+.d-none {
+  display: none;
+}
